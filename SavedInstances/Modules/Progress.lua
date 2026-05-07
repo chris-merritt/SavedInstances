@@ -225,10 +225,13 @@ local presets = {
   },
   -- Emissary of War
   ["emissary-of-war"] = {
-    type = "single",
+    type = "any",
     index = 5,
     name = L["Emissary of War"],
-    questID = 83347,
+    questID = {
+      83347,
+      93598, -- Midnight S1 Heroic
+    },
     reset = "weekly",
     persists = false,
     fullObjective = false,
